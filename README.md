@@ -2,7 +2,6 @@
 # API and WEB Test Autoation using Serenity, Cucumber and Maven.
 
 First steps:
-Download and unzip the projects. 
 Import the projects like maven projects to the IDE (I used Eclipse IDE).
 
 Run the tests separately like this:
