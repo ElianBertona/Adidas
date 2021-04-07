@@ -18,7 +18,7 @@
 - src/test/java/api - Test runners and supporting code
 - src/test/resources/features - Feature files
 
-#How to run:
+# How to run:
 Prerequisites: maven3, java8 or greater
 Maven:
 - run command from base project: mvn clean verify
