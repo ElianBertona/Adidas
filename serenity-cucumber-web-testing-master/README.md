@@ -1,3 +1,6 @@
+# Shop Web Test Automation
+- Based on Serenity+Cucumber4
+
 # Web BDD test scenario:
 -  Scenario: Add products to my cart and purchase one
 -    Given user is on the home page
@@ -10,3 +13,15 @@
 -    And user place the order
 -    And user fill all the payment fields "Name" "Spain" "Barcelona" "202220009872" "06" "2024"
 -    Then user should see the "790" in the confirmation popup
+
+# Structure
+src/test/java/api - Test runners and supporting code
+src/test/resources/features - Feature files
+
+#How to run:
+Prerequisites: maven3, java8 or greater
+Maven:
+run command from base project: mvn clean verify
+html report is generated when running previous commands - open target/site/serenity/index.html after run
+
+
