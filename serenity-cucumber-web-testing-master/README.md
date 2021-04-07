@@ -2,7 +2,7 @@
 - Based on Serenity+Cucumber4
 
 # Web BDD test scenario:
--  Scenario: Add products to my cart and purchase one
+- Scenario: Add products to my cart and purchase one
 -    Given user is on the home page
 -    And user is login on the store as "demoUser"
 -    When user navigate to "Laptops"
@@ -15,13 +15,13 @@
 -    Then user should see the "790" in the confirmation popup
 
 # Structure
-src/test/java/api - Test runners and supporting code
-src/test/resources/features - Feature files
+- src/test/java/api - Test runners and supporting code
+- src/test/resources/features - Feature files
 
 #How to run:
 Prerequisites: maven3, java8 or greater
 Maven:
-run command from base project: mvn clean verify
-html report is generated when running previous commands - open target/site/serenity/index.html after run
+- run command from base project: mvn clean verify
+- html report is generated when running previous commands - open target/site/serenity/index.html after run
 
 
