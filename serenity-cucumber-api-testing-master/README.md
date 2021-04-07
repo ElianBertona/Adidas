@@ -1,6 +1,6 @@
 # PetStore API Test Automation
 - Based on Serenity+Cucumber4
--
+
 # API test scenarios:
 - Add pet to the store
  -Modify the same pet
